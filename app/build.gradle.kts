@@ -45,4 +45,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation("com.mesibo.api:webrtc:1.0.5")
+    implementation("org.java-websocket:Java-WebSocket:1.5.3")
+
 }
